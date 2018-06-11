@@ -58,6 +58,7 @@
                                         <h5 class="blue-grey-text">Iniciar Sesion</h5>
                                     </div>
                                 </div>
+                                <asp:Literal ID="Literal1" runat="server"></asp:Literal>
                                 <div class="row">
                                     <div class="input-field col s12">
                                         <i class="material-icons prefix">account_circle</i>
@@ -75,7 +76,7 @@
                                 <br />
                                 <center>
                                     <div class='row'>
-                                        <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect indigo'>Iniciar Sesion</button>
+                                        <asp:Button ID="Login" runat="server" Text="Iniciar Sesion" CssClass="col s12 btn btn-large waves-effect indigo" OnClick="Login_Click"></asp:Button>
                                     </div>
                                 </center>
                             </div>

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
 
 namespace Sistemas
 {
@@ -11,7 +12,14 @@ namespace Sistemas
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if(Session["correo"] != null && Session["contraseña"] != null)
+            {
 
+            }
+            else
+            {
+                Response.Redirect("Default.aspx");
+            }
         }
     }
 }

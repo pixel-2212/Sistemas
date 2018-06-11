@@ -23,6 +23,7 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
+    <asp:Literal ID="Literal1" runat="server"></asp:Literal>
     <ul id="dropdown1" class="dropdown-content">
         <li><a href="#!">Pendientes</a></li>
         <li><a href="#!">Terminadas (Notificadas)</a></li>
@@ -37,7 +38,7 @@
                 <li><a href="#">Clientes</a></li>
                 <li><a href="#">Ordenes</a></li>
                 <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Ordenes<i class="material-icons right">arrow_drop_down</i></a></li>
-                <li><a href="#" class="red darken-4">Cerrar Sesion</a></li>
+                <li><a href="Cierre.aspx" class="red darken-4">Cerrar Sesion</a></li>
             </ul>
         </div>
     </nav>
