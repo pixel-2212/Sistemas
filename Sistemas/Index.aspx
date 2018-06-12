@@ -46,7 +46,7 @@
                                 <asp:TextBox ID="descripcionTextBox" runat="server" TextMode="MultiLine" CssClass="materialize-textarea" Text='<%# Bind("descripcion") %>' />
                                 <label for="descripcionTextBox">Descripcion</label>
                             </div>
-                        </div>s
+                        </div>
                         <div class="row">
                             <div class="input-field col s12">
                                 <asp:TextBox ID="tipoTextBox" runat="server" Text='<%# Bind("tipo") %>' />
